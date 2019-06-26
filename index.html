@@ -1,0 +1,90 @@
+<!--
+
+   Copyright (c) 2017, the Perspective Authors.
+
+   This file is part of the Perspective library, distributed under the terms of
+   the Apache License 2.0.  The full license can be found in the LICENSE file.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="build.css"/>
+    <script src="perspective.view.js"></script>
+    <script src="hypergrid.plugin.js"></script>
+    <script src="highcharts.plugin.js"></script>
+    <script src="perspective.js"></script>
+    <link rel='stylesheet' href="csv.css" is="custom-style">
+    <link rel='stylesheet' href="material.css" is="custom-style">
+    <link rel='stylesheet' href="custom.css" is="custom-style">
+
+    <style>
+        #list {
+            display: flex;
+            flex-direction: column;
+            width: 50%
+        }
+        .right-panel{
+            display: block;
+        }
+        h4{
+            margin: 10px 0 5px 0;
+        }
+        ul{
+            margin: 5px 0;
+        }
+
+        body{
+            padding-left: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h4>General</h4>
+        <ul>
+            <li><a href="visualize.html#investments_short.csv">investments_short.csv</a></li>
+            <li><a href="visualize.html#10_no_headers.csv">10_no_headers.csv</a></li>
+            <li><a href="visualize.html#2014.csv">2014.csv</a></li>
+            <li><a href="visualize.html#dupes.csv">dupes.csv</a></li>
+            <li><a href="visualize.html#files.csv">files.csv</a></li>
+            <li><a href="visualize.html#FL_insurance_sample.csv">FL_insurance_sample.csv</a></li>
+            <li><a href="visualize.html#TechCrunchcontinentalUSA.csv">TechCrunchcontinentalUSA.csv</a></li>
+            <li><a href="visualize.html#test.csv">test.csv (Links)</a></li>
+
+        </ul>
+    </div>
+    <div>
+        <h4>Overflow on Cells</h4>
+        <ul>
+            <li><a href="visualize.html#json_values.csv">json_values.csv (JSON - XML)</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Array Types</h4>
+        <ul>
+            <li><a href="visualize.html#add_list_field.csv">add_list_field.csv [STRING]</a></li>
+            <!--<li><a href="visualize.html#add_list_field_number.csv">add_list_field_number.csv [INT]</a></li>-->
+        </ul>
+    </div>
+    <div>
+        <h4>Various Types</h4>
+        <ul>
+            <li><a href="visualize.html#TypesA.csv">TypesA.csv (Various Types)</a></li>
+            <li><a href="visualize.html#TypesB.csv">TypesB.csv (Various Types)</a></li>
+        </ul>
+    </div>
+
+    <div class="right-panel">
+        <div><button type="button" onClick="window.location.href='visualize.html'; return;" name="button">Add File Source</button></div>
+    </div>
+</body>
+
+</html>
